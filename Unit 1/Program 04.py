@@ -1,4 +1,4 @@
-student = {"name": "Anuj", "division": 15, "age": 19}
+student = {"name": "Sameer", "division": 15, "age": 19}
 print(student)
 
 print(student["name"])
@@ -10,6 +10,6 @@ print(student)
 del student["age"]
 print(student)
 
-more_info = {"sport": "Soccer", "hobby": "Art"}
+more_info = {"sport": "Chess", "hobby": "Art"}
 student.update(more_info)
 print(student)
